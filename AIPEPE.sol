@@ -923,7 +923,7 @@ contract AIPEPE is ERC20, Ownable {
         buyLiquidityFee = 0;
         buyTotalFees = buyMarketingFee + buyLiquidityFee;
         
-        sellMarketingFee = 0;
+        sellMarketingFee = 5;
         sellLiquidityFee = 0;
         sellTotalFees = sellMarketingFee + sellLiquidityFee;
 
